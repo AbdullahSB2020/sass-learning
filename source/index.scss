@@ -1,0 +1,27 @@
+@use 'normalize';
+
+@use 'Content';
+@use 'Footer';
+
+body {
+    // just following now not later
+    background-color: #fafafa;
+    font-family: 'Segoe UI', sans-serif; // other val R fallback
+}
+
+// _normalize.scss
+body, html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+content {
+    display: block;
+}
+
+// _colors.scss
+$content-box: #fff ;
+$footer: #222 ;
+$footer-font: #fff ;
